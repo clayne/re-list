@@ -20,6 +20,8 @@ A list of open-source reverse engineering tools with a focus on binary analysis.
 
 - **[BitBlaze](http://bitblaze.cs.berkeley.edu/)**: BitBlaze Binary Analysis Platform features a novel fusion of static and dynamic analysis techniques, dynamic symbolic execution, and whole-system emulation and binary instrumentation. 
 
+- **[Cannoli](https://github.com/MarginResearch/cannoli)**: A high-performance tracing engine for qemu-user. It can record a trace of both PCs executed, as well as memory operations. It consists of a small patch to QEMU to expose locations to inject some code directly into the JIT, a shared library which is loaded into QEMU to decide what and how to instrument, and a final library which consumes the stream produced by QEMU in another process, where analysis can be done on the trace.
+
 - **[Cemu](https://github.com/hugsy/cemu)**: Cheap EMUlator: lightweight multi-architecture assembly playground
 
 - **[Cutter](https://github.com/radareorg/cutter)**: A Qt and C++ GUI for radare2.
